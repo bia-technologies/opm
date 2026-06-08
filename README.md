@@ -51,12 +51,12 @@ opm build --mf ./packagedef .
 При указании данной переменной можно переназначить путь для создания скриптов запуска различных пакетов. Возможно скачать архив, распаковать его и запуская oscript с указанием этих переменных тестировать работу автономной установки. 
 - **linux** 
 ```
-OSCRIPTBIN=~/.local/bin opm update -all
+OSCRIPTBIN=~/.local/bin opm update --all
 ```
 - **windows** 
 ```
 set OSCRIPTBIN=c:\temp\ 
-opm update -all
+opm update --all
 ```
 
 ## Настройка прокси-сервера для скачивания пакетов
